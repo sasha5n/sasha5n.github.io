@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Галерея</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		h1{
+			text-align: center;
+			padding: 20px;
+		}
+		main{
+			width: 80%;
+			margin: auto;
+			min-height: 800px;
+			padding: 20px;
+			background-color: azure;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.imgcont{
+			width: calc(50% - 40px);
+			margin: 20px;
+			height: 400px;
+			background-color: black;
+		}
+		.photo1{
+			background-image:url(img/1.jpg);
+			background-size: cover; 
+		}
+	</style>
+</head>
+<body>
+	<h1>
+		Моя галерея
+	</h1>
+	<main>
+		<div class="imgcont photo1"></div>
+		<div class="imgcont photo2"></div>
+		<div class="imgcont photo3"></div>
+		<div class="imgcont photo4"></div>
+		<div class="imgcont photo5"></div>
+		<div class="imgcont photo6"></div>
+		<div class="imgcont photo7"></div>
+		<div class="imgcont photo8"></div>
+	</main>
+</body>
+</html>
